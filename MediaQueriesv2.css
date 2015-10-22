@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700,400);
-@import url(https://fonts.googleapis.com/css?family=PT+Sans);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
 .wrapper{
@@ -83,7 +82,7 @@
 }
 
 .primary p{
-      font-family: 'PT Sans', sans-serif;
+      font-family: 'Libre Baskerville', serif;
       font-size: auto;
       color: #3E4040;
       margin: 0 10px 0 10px;
@@ -91,7 +90,7 @@
 }
 
 .side p{
-      font-family: 'PT Sans', sans-serif;
+      font-family: 'Libre Baskerville', serif;
       font-size: auto;
       color: #3E4040;
       margin: 0 10px 0 10px;
