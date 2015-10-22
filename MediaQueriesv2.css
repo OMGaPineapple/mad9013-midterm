@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700,400);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+.wrapper{
+     background-color: #E0E5E5;
+     border: 5px double #403A38;
+}
+
+.masthead{
+     text-align: center;
+     font-size: auto;
+     font-family: 'Dancing Script', cursive;
+     font-weight: 700;
+     color: #3E4040;
+     background-color: white;
+     padding: 5px;
+     border-bottom: 5px double #403A38;
+}
+
+.mainnav ul{
+    
+    font-size: 1.6em;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+}
+
+.mainnav li{
+    margin-bottom: 2px;
+    display: block;
+    border-style:solid;
+    background-color: #BBBFBF;
+}
+
+.mainnav a{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    color: #3E4040;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.mainnav li:hover{
+      background-color: #7D7F7F;
+      border-bottom-style: groove;
+}
+
+.primary h2{
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 700;
+      text-align: center;
+      font-size: 1.5em;
+      text-decoration: underline;
+}
+
+.primary h3{
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 700;
+      text-align: center;
+      font-size: 1.5em;
+      text-decoration: underline;
+      color: #3E4040;
+}
+
+.side h3{
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 700;
+      text-align: center;
+      font-size: 1.5em;
+      text-decoration: underline;
+      color: #3E4040; 
+}
+.primary img{
+       max-width: 100%;
+       height: auto;
+       width: auto
+}
+
+.side img{
+       max-width: 100%;
+       height: auto;
+       width: auto
+}
+
+.primary p{
+      font-family: 'PT Sans', sans-serif;
+      font-size: auto;
+      color: #3E4040;
+      margin: 0 10px 0 10px;
+      padding: 0 0 10px 0;
+}
+
+.side p{
+      font-family: 'PT Sans', sans-serif;
+      font-size: auto;
+      color: #3E4040;
+      margin: 0 10px 0 10px;
+      padding: 0 0 10px 0;
+}
+.footer p{
+      padding: 20px 0 10px 0;
+      font-family: 'Libre Baskerville', serif; 
+      color: #3E4040;
+      padding: 25px 0 25px 20px;
+      background-color: #BBBFBF;
+      margin: 0px;
+      border-top: 5px double #403A38;
+     
+}
+
+@media only screen and (min-width: 40rem) and (max-width: 60rem){
+    
+    .wrapper{
+        align-content: center;
+    }
+    
+    .masthead{
+
+      margin: 0px;
+      background: url(img/Header2.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% 100%;
+    }
+
+    .masthead h1{
+      color:transparent;
+    }
+    .mainnav li:nth-child(1){
+        display: table-cell;
+        width:10%
+    }
+       .mainnav li:nth-child(2){
+        display: table-cell;
+        width:10%
+    }
+
+       .mainnav li:nth-child(3){
+        display: table-cell;
+        width:10%
+    }
+
+       .mainnav li:nth-child(4){
+        display: table-cell;
+        width:10%
+    }
+
+
+    .primary {
+        float: left; 
+        width: 63%;   
+    }
+    
+    .side{
+        float: left; 
+        width: 37%;   
+    }
+    
+    .footer p{
+        clear: both;
+        float: none;
+        padding: 25px 0 25px 20px;
+        
+    }
+
+}
+
+@media only screen and (min-width:60rem){
+
+    
+    
+    .masthead{
+
+      margin: 0px;
+      background: url(img/Header.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% 100%;
+    }
+    
+    .masthead h1{
+      color:transparent;
+    }
+
+    .mainnav ul{
+        padding: 43px 10px 0 5;
+        float: left;
+        width: 23%
+    }
+
+    .mainnav li{
+        margin-bottom: 2px;
+        display: block;
+    }
+
+    
+    .primary {
+         -webkit-column-count: 2;
+         float:left;
+         width: 50%;
+         padding-top: 50px
+        
+    }
+    .side{
+        float: right;
+        width: 25%;
+        padding-top: 20px
+    }
+    .footer{
+        clear: both; 
+        float: none;
+    }
+
+    
+}
